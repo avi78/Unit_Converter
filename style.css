@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #ececec;
+    text-align: center;
+    color: #fff;
+}
+
+.title {
+    font-size: 3em;
+    margin-bottom: 2em;
+    color: #222;
+}
+
+.units {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+    flex-wrap: wrap;
+}
+
+.panel {
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    min-width: 15em;
+    height: 13em;
+    position: relative;
+}
+
+.panel:nth-child(1) {
+    background: #ff4040;
+}
+
+.panel:nth-child(2) {
+    background: #4070ff;
+}
+
+.panel:nth-child(3) {
+    background: #62ff24;
+}
+
+.bg-unit {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 10em;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.panel:nth-child(1) .bg-unit {
+    color: #ff4b4b;
+}
+
+.panel:nth-child(2) .bg-unit {
+    color: #537eff;
+}
+
+.panel:nth-child(3) .bg-unit {
+    color: #7ffc4e;
+}
+
+.panel h2, .panel input {
+    position: relative;
+}
+
+.panel h2 {
+    text-align: left;
+    padding-left: 1em;
+
+}
+
+.panel input::-webkit-outer-spin-button,
+.panel input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.panel input {
+    border: none;
+    background: none;
+    margin-top: 0.5em;
+    width: 4em;
+    height: 2em;
+    font-size: 3em;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+}
+
+.panel input:focus {
+    outline: none;
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-family: monospace;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+#header {
+    width: 100%;
+    height: 60px;
+    background: #03114d;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    overflow: auto;
+}
