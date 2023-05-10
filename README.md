@@ -9,9 +9,9 @@
 - Weight
 
 ### Design Plan
-[Design]
+![Design]
 (https://drive.google.com/file/d/1jSLqbJit7D6IaJZecj_Aq6iE7Lm74VmV/view?usp=sharing)
 
 ### Working
-[Working]
+![Working]
 ()
