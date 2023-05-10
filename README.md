@@ -9,8 +9,8 @@
 - Weight
 
 ### Design Plan
-![Design]
-(https://drive.google.com/file/d/1jSLqbJit7D6IaJZecj_Aq6iE7Lm74VmV/view?usp=sharing)
+![Unit Converter](https://github.com/avi78/Unit_Converter/assets/92016042/95912804-b4e4-4e01-9795-31e569c776d7)
+
 
 ### Working
 ![Working]
